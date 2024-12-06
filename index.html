@@ -3,12 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript-101</title>
+    <title>DOM API</title>
 </head>
 <body>
     <h1>Teretulemast, Dom!</h1>
+    <button id="dont-touch-me-button">Ära vajuta mind!</button>
     <h3> Eestis enamsöödud puuviljad täna:</h3>
     <div id="fruit-list"></div>
+
+    <form id="add-new-fruits-form">
+        <h4>Lisa uusi puuvilju.</h4>
+        <fieldset>
+            <label for="fruit">Puuvili</label>
+            <input type="text" name="fruit" id="fruit" > 
+        </fieldset>
+        <button type="submit">Lisa puuvili</button>
+    </form>
+
     <script src="./DOM.js"></script>
 </body>
 </html>
